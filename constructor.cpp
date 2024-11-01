@@ -3,7 +3,7 @@ using namespace std;
 class wall{
 public:
     double length;
-    wall()
+    wall() //Default constructor
     {
         cout << "enter length size:- ";
         cin>>length;
